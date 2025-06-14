@@ -5,6 +5,7 @@ def translate_text(text, dest_language):
     translated = translator.translate(text)
     return translated
 
+
 if __name__ == "__main__":
     text = input("Enter text to translate: ")
     dest_language = input("Enter destination language (e.g., 'es' for Spanish, 'fr' for French): ")
